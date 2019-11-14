@@ -2,6 +2,7 @@ body {
     background: #fafafa;
     color: #125688;
     font-family: Montserrat;
+    font-weight: bold !important;
 }
 
 #main-container {
@@ -29,6 +30,7 @@ body {
 .signup-box .platzigram {
     font-family: 'Oleo Script';
     font-size: 42px;
+    font-weight: bold !important;
 }
 
 .signup-form {
@@ -43,7 +45,7 @@ body {
 
 .signup-form .btn.btn-fb {
     background-color: #4090db;
-    font-size: .9em;
+    font-size: .8em;
     ;
 }
 

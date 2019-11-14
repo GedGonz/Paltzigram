@@ -11,6 +11,12 @@
     "author": "GedGonz",
     "license": "MIT",
     "dependencies": {
-        "express": "^4.17.1"
+        "express": "^4.17.1",
+        "materialize-css": "^1.0.0"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2"
     }
 }

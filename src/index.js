@@ -1,9 +1,12 @@
-var numeros = [400, 200, 1, -23];
-var numerosMasUno = numeros.map(function(numero) {
-    return numero + 1;
-});
+var page = require('page');
 
-var numerosMasDos = numeros.map(n => n + 2);
+var main = document.querySelector('#main-container');
 
-console.log(numerosMasUno);
-console.log(numerosMasDos);
+page('/', function(ctx, next) {
+    main.innerHTML = 'Home <a href="/signup">Signup</a>';
+})
+page('/signup', function(ctx, next) {
+    main.innerHTML = 'signup <a href="/">Home</a>';
+})
+
+page();
